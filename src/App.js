@@ -3,6 +3,7 @@ import FindFruit from './components/FindFruit'
 import weeklyData from './data/weeklyData'
 import { connect } from 'react-redux'
 import loadData from './actions/load'
+import Home from './pages/home'
 
 export class App extends Component {
   constructor(props){
@@ -45,7 +46,7 @@ export class App extends Component {
 
     return (
       <div>
-        <FindFruit data={this.state.weeklyData}/> <br/> <br/>
+        <Home/>
       </div>
     )
   }
