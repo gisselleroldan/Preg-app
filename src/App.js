@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import FindFruit from './components/FindFruit'
 import weeklyData from './data/weeklyData'
 import { connect } from 'react-redux'
 import loadData from './actions/load'

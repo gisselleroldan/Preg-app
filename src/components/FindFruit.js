@@ -59,9 +59,6 @@ const FindFruit = ({data}) => {
       {weeksAlong && `You are ${weeksAlong} weeks along!`} <br/>
       {(weeksAlong && data) && `Baby size: ${data[data.findIndex(item => item.week === parseInt(weeksAlong))].fruit}!` } <br/>
 
-
-
-
     </>
   )
 }

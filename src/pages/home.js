@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import FindFruit from '../components/FindFruit'
 import Books from '../components/Books'
 import {connect} from 'react-redux'
-import {Container, Row, Col, Image} from 'react-bootstrap'
+import '../index.css'
 
 export class home extends Component {
 
@@ -16,7 +16,7 @@ export class home extends Component {
 				{/* <!-- Header --> */}
 					<header id="header" className="alt">
 						<span className="logo"><img style={{width:"100px"}} src="assets/images/preg-icon1.png" alt="" /></span>
-						<h1>Pregnancy App</h1>
+						<h1>Preggie</h1>
 						<p>A way to connect with your baby's growth every week<br /></p>
 					</header>
 
@@ -40,7 +40,7 @@ export class home extends Component {
 										<header className="major">
 											<h2>How it works</h2>
 										</header>
-										<p>Enter in your due date. Once we have the due date, you will be able to see how big your baby is and see some information on how they are developing this week. It is remarkable to know that babies at 4 weeks start off the size of a poppy seed and by week 40 they are as big as a pumpkin! Pregnancy is an amazing experience and we hope you enjoy using this app. </p>
+										<p>Enter in your due date. Once we have the due date, you will be able to see how big your baby is relative to a fruit or vegetable. It is remarkable to know that babies at 4 weeks start off the size of a poppy seed and by week 40 they are as big as a watermelon! Pregnancy is an amazing experience and we hope you enjoy using this app. </p>
 									</div>
 								</div>
 							</section>
@@ -63,21 +63,22 @@ export class home extends Component {
 									    <FindFruit data={this.props.weeklyData} />
 									</li>
 								</ul>
-								<footer className="major">
+								{/* <footer className="major">
 									<ul className="actions special">
 										<li><a href="generic.html" className="button">Learn More</a></li>
 									</ul>
-								</footer>
+								</footer> */}
 							</section>
 
 						{/* <!-- Book recommendations --> */}
 							<section id="second" className="main special">
 								<header className="major">
 									<h2>Book recommendations</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<p>Some pregnancy nutrition book options:</p>
 								</header>
 								<ul className="statistics">
+
+                                    
 									{/* <li className="style1">
 										<span className="icon solid fa-code-branch"></span>
 										<strong>5,120</strong> Etiam
@@ -100,12 +101,11 @@ export class home extends Component {
 									</li> */}
                                     <Books/>
 								</ul>
-								<p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-								<footer className="major">
+								{/* <footer className="major">
 									<ul className="actions special">
 										<li><a href="generic.html" className="button">Learn More</a></li>
 									</ul>
-								</footer>
+								</footer> */}
 							</section>
 
 						{/* <!-- About US --> */}
@@ -114,11 +114,11 @@ export class home extends Component {
 									<h2>About Us</h2>
 									<p>This app was made by Gisselle Roldan, a react.js student</p>
 								</header>
-								<footer className="major">
-									<ul className="actions special">
+								{/* <footer className="major"> */}
+									{/* <ul className="actions special">
 										<li><a href="generic.html" className="button">Learn More</a></li>
 									</ul>
-								</footer>
+								</footer> */}
 							</section>
 
 					</div>
@@ -146,7 +146,7 @@ export class home extends Component {
 								<li><a href="#" className="icon brands fa-instagram alt"><span className="label">Instagram</span></a></li>
 							</ul>
 						</section>
-						<p className="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p className="copyright">&copy; Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>

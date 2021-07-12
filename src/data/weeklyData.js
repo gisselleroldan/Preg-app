@@ -105,123 +105,123 @@ const weeklyData = [
     },
     {
         week: 21,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Endive",
+        imgURL: "./assets/images/endive.png",
+        info: "At 21 weeks pregnant, your baby has more control over limb movements, which explains why you might be feeling more kicking and stretching going on in there. From the outside, your little one may be leaving his mark in the form of stretch marks — pink, red, purple, reddish-brown or dark brown streaks that can appear as your belly expands."
     },
     {
         week: 22,
-        fruit: "Dill pickle",
+        fruit: "Coconut",
         imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        info: "Now that you’re 22 weeks pregnant, your rapidly growing baby is invading your space—to say the least. That’s why it might be tough to catch your breath and why your back might be killing you. Hey, as baby grows, they may be expanding your belly so much at week 22 of pregnancy that you might start to get some stretch marks —and you might even have a newfound “outie” belly button! "
     },
     {
         week: 23,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Grapefruit",
+        imgURL: "./assets/images/grapefruit.png",
+        info: "At 23 weeks pregnant, baby is getting ready for their big debut by listening in on what’s going on in the outside world. We know you’re getting ready too. Just remember: While having the nursery painted and stocked with diapers is important, there are some less fun to-dos you should have on your radar—namely, financials. Week 23 of pregnancy is a good time to call your health insurance company to see how you’re currently covered and decide what adjustments you’ll need to make for baby."
     },
     {
         week: 24,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "cantaloupe",
+        imgURL: "./assets/images/cantaloupe.png",
+        info: "Consider this a preview of motherhood: Baby is doing just fine—and you’re, well, kind of a mess. Your week 24 baby is working on being ready to survive (and thrive!) in the outside world. You, on the other hand, are probably experiencing some of the late-pregnancy discomforts at 24 weeks pregnant—leg cramps, backaches and swollen feet."
     },
     {
         week: 25,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Cauliflower",
+        imgURL: "./assets/images/cauliflower.png",
+        info: "You’re 25 weeks pregnant, and it’s probably dawned on you that soon you’ll actually have to deliver this baby. That might be a little scary, but it’s also exciting! "
     },
     {
         week: 26,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Kale",
+        imgURL: "./assets/images/kale.png",
+        info: "You haven’t met baby yet, but they’re taking over your life! They’re interfering with your sleep, messing with your memory and even giving you a stress headache or two at 26 weeks pregnant. (They’ll do all those things after birth too!) "
     },
     {
         week: 27,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Lettuce",
+        imgURL: "./assets/images/lettuce.png",
+        info: "At 27 weeks, baby is breathing (it’s amniotic fluid, not air, but still pretty cool) and even showing brain activity. You’ve got a lot on your brain too, from wondering what the birth is going to be like to trying to find the best pediatrician for baby. As you look ahead to the third trimester, be prepared for some pretty embarrassing stuff (like having to pee all the time—and maybe even when you don’t mean to!). "
     },
     {
         week: 28,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Eggplant",
+        imgURL: "./assets/images/eggplant.png",
+        info: "Welcome to the third trimester! Moms-to-be who are 28 weeks pregnant and beyond are known for their lack of sleep. If you find yourself up in the middle of the night, do something relaxing. This is not the time to vacuum the house from top to bottom—even though you might feel the urge to do that at some point. (It’s called nesting. You’ve probably heard of it.) "
     },
     {
         week: 29,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Acorn Squash",
+        imgURL: "./assets/images/acorn-squash.png",
+        info: "You’re probably getting a preview of baby’s personality by feeling them move. By those playful kicks and jabs, you may realize you’ve got a gentle dancer or an active ninja! You’ll also want to start packing a bag with the things you know you’ll want with you at the hospital for baby’s birth."
     },
     {
         week: 30,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Zucchini",
+        imgURL: "./assets/images/zucchini.png",
+        info: "At week 30 of pregnancy, your dreams might be getting even weirder— if you’re actually sleeping, that is. That could be the result of hormones, but it could also be anxiety, so consider doing some prep work to help you rest easier. One idea? Do a test drive to see exactly how long it takes you to get to the hospital. Then maybe you’ll stop having nightmares about giving birth in your car."
     },
     {
         week: 31,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Asparagus",
+        imgURL: "./assets/images/asparagus.png",
+        info: "Can you believe all five of baby’s senses are fully developed at 31 weeks pregnant? Baby is also getting smarter! In the meantime, you might actually feel a little… dumb. You’re not! It’s just that many moms-to-be find themselves acting absentmindedly during the third trimester. Some say that “pregnancy brain” isn’t a real thing, but can you honestly think of another time in your life when you’ve had as much on your mind as now?"
     },
     {
         week: 32,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Squash",
+        imgURL: "./assets/images/squash.png",
+        info: "Ready or not?! At 32 weeks pregnant, baby’s birth still seems far into the future, but you and baby are getting ready in a lot of ways… just in case there’s an early arrival. Your 32-week fetus has probably turned into the head-down position (or will turn soon), so they’re poised for the trip down the birth canal."
     },
     {
         week: 33,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Celery",
+        imgURL: "./assets/images/celery.png",
+        info: "We’d tell you to take a deep breath and relax, but it’s probably tough to do either of those at 33 weeks pregnant. In fact, it’s probably hard to get comfortable at all, since you might be feeling overheated on top of your other symptoms too. But you’re probably getting super excited to meet baby, and we can’t blame you."
     },
     {
         week: 34,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Butternut Squash",
+        imgURL: "./assets/images/butternut-squash.png",
+        info: "Your curious baby can hear your voice and is listening in on your conversations at 34 weeks pregnant. In fact, baby might enjoy a lullaby or two—so go ahead and sing to them. Some experts say that, after birth, babies can recognize songs mom sang while pregnant; they may even be more easily soothed by those familiar tunes once they're “on the outside.\""
     },
     {
         week: 35,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Pineapple",
+        imgURL: "./assets/images/pineapple.png",
+        info: "At 35 weeks, some moms-to-be feel like they have a ton of stuff left to do before baby’s arrival. Others can barely wait for baby to make their debut. Either way, try not to stress; baby will show up when they’re ready and won’t care if you haven’t checked every little detail off your list."
     },
     {
         week: 36,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Papaya",
+        imgURL: "./assets/images/papaya.png",
+        info: "Time is flying! Since baby really could decide to arrive any day now, try to put in your final prep work at 36 weeks pregnant. For example, if you took a childbirth class a few months ago, reread the materials you were given and practice the breathing techniques you learned with your partner. Go over your plan for getting to the hospital and all the what-ifs."
     },
     {
         week: 37,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Romaine Lettuce",
+        imgURL: "./assets/images/romaine.png",
+        info: "Around week 37 of pregnancy, many moms-to-be find themselves organizing cupboards and scrubbing floors. That’s the phenomenon people lovingly refer to as “nesting.” It may be instinctual—your body senses baby will be here really soon. After all, you’re 37 weeks pregnant, which is considered “early term,” meaning baby is almost ready."
     },
     {
         week: 38,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Winter Melon",
+        imgURL: "./assets/images/winter-melon.png",
+        info: "If you feel a lightning bolt-like sensation running up and down your legs (and in your vagina!), don’t freak out. At 38 weeks pregnant, baby is probably sitting pretty low in your pelvis, which means they’re bumping into all kinds of nerves down there—including some super-sensitive ones you might not know you had."
     },
     {
         week: 39,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Pumpkin",
+        imgURL: "./assets/images/pumpkin.png",
+        info: "Baby has finally reached full term! You’re probably feeling like you want to get this baby OUT. We’re not sure, but the impatience and discomfort moms-to-be feel around 39 weeks pregnant (and beyond!) might be nature’s way of getting you mentally prepared for delivery."
     },
     {
         week: 40,
-        fruit: "Dill pickle",
-        imgURL: "./assets/images/blueberry1.png",
-        info: "16 weeks along"
+        fruit: "Watermelon",
+        imgURL: "./assets/images/watermelon.png",
+        info: "Week 40 of pregnancy can be mentally rough, since you’ll be constantly wondering when baby will decide to make their entrance and question every twinge you have. Pay close attention to fetal movement. If you notice a decrease in the way baby moves, call your heathcare provider immediately. Try not to stress, and rest assured that baby will arrive when they’re ready—and your body will give you the right signals that it’s time."
     },
 ]
 

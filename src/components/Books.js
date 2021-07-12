@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import {useSelector} from 'react-redux'
+import {ListGroup} from 'react-bootstrap'
 
 // This component will render pregnancy nutrition books
-
 
 const Books = () => {
 
@@ -22,10 +22,13 @@ const Books = () => {
     // link to cover
     bookData.works.forEach((book) => {  
       let cover_id = book.cover_id
-      // get cover_img src
+      let works = book.key
+      // get cover_img src and workSrc
       let coverImgSrc = `http://covers.openlibrary.org/b/id/${cover_id}-M.jpg`
+      let worksSrc = `https://openlibrary.org${works}`
       book.cover_id = coverImgSrc
-      // console.log(book)
+      book.key = worksSrc
+      console.log(book)
     });
     console.log(bookData.works)
     setBooks(bookData.works)
@@ -34,18 +37,19 @@ const Books = () => {
 
   return (
     <>
-      Some pregnancy nutrition book options
       {/* map through coverImg prop and make image links with the book covers */}
 
-      <ul>
           {books && books.map((book) => {
-              return <li>
-                  <a href="/"> {book.title}<br/>
-                  <img src={book.cover_id}alt="" />
-                  </a></li>
+              return <ListGroup horizontal>
+                  <ListGroup.Item className="book"><a href={book.key}> {book.title}<br/>
+                    <img style={{width: "150px"}} src={book.cover_id}alt="" />
+                    </a></ListGroup.Item>
+                  </ListGroup>
+                
+              
 
           })}
-      </ul>
+    
     </>
   )
 }
